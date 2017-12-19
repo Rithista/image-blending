@@ -1,0 +1,9 @@
+﻿  main.cpp
+  mix.cpp
+mix.obj : error LNK2005: "public: static struct Image::Rgb const Image::kBlue" (?kBlue@Image@@2URgb@1@B) already defined in main.obj
+mix.obj : error LNK2005: "public: static struct Image::Rgb const Image::kGreen" (?kGreen@Image@@2URgb@1@B) already defined in main.obj
+mix.obj : error LNK2005: "public: static struct Image::Rgb const Image::kBlack" (?kBlack@Image@@2URgb@1@B) already defined in main.obj
+mix.obj : error LNK2005: "public: static struct Image::Rgb const Image::kWhite" (?kWhite@Image@@2URgb@1@B) already defined in main.obj
+mix.obj : error LNK2005: "public: static struct Image::Rgb const Image::kRed" (?kRed@Image@@2URgb@1@B) already defined in main.obj
+main.obj : error LNK2001: unresolved external symbol "void __cdecl WriteImage(class Image,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?WriteImage@@YAXVImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+D:\VS2017\Projects\CMP2090M Assignment Code\Release\CMP2090M Assignment Code.exe : fatal error LNK1120: 1 unresolved externals
